@@ -1,0 +1,162 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 1200px;
+}
+header{
+    border: 2px solid black;
+    height: 30px;
+}
+.left{
+    float: left;
+    border: 1px solid black;
+    width: 790px;
+    height: 25px;
+    display: flex;
+}
+.left a{
+    text-decoration: none;
+}
+.like{
+    background-color: rgb(0, 0, 215);
+    color: white;
+    width: 60px;
+    cursor: pointer;
+}
+.follow{
+    background-color: dodgerblue;
+    color: white;
+    width: 80px;
+    cursor: pointer;
+}
+.youtube{
+    background-color: red;
+    color: white;
+    width: 80px;
+    cursor: pointer;
+}
+
+.right{
+   float: right;
+   width: 400px;
+   display: flex;
+   line-height: 20px;
+   height: 25px;
+   border: 1px solid black;
+}
+.right a button{
+    margin-left: 10px;
+    width: 70px;
+}
+.search-wrapper{
+    margin-left: 10px;
+}
+.search-wrapper input{
+    width: 200px;
+}
+.search-wrapper span{
+    vertical-align: baseline;
+}
+.banner{
+    width: 1200px;
+}
+.menu{
+    border: double;
+    height: 30px;
+}
+.menu ul{
+    display: flex;
+    margin-left: 40px;
+    margin-top: -30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.menu ul li{
+    list-style: none;
+    padding: 5px;
+    justify-content: space-around;
+}
+.menu ul li a{
+   text-decoration: none;
+   color: black;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+ }
+ .content-left{
+     width: 620px;
+     float: left;
+ }
+ .content{
+    line-height: 30px;
+ }
+ .content a{
+     font-size: 21px;
+     text-decoration: none;
+     color: rgb(155, 32, 32) ;
+ }
+.president{
+    width: 600px;
+}
+.first-page{
+    height: 30px;
+    line-height: 35px;
+}
+.first-page a{
+   background-color: rgb(206, 206, 206);
+   padding: 5px;
+   text-decoration: none;
+   width: 120px;
+   height: 120px;
+   color: rgb(155, 32, 32) ;
+   font-weight: bold;
+}
+.content-middle{
+    width: 200px;
+    float: left;
+}
+.english{
+    float: right;
+    height: 30px;
+}
+.english a{
+    line-height: 35px;
+    background-color: rgb(206, 206, 206);
+    padding: 5px;
+    text-decoration: none;
+    width: 120px;
+    height: 120px;
+}
+.content-english{
+    margin-top: 30px;
+}
+.content-english p{
+    margin-top: 10px;
+    border: outset;
+    font-size: 16px;
+}
+.content-right{
+    margin-left: 20px;
+    width: 360px;
+    float: left;
+}
+.content-rss{
+    line-height: 35px;
+    height: 30px;
+}
+.content-rss p{
+    float: left;
+    display: flex;
+    font-size: 15px;
+}
+.content-rss a{
+    font-size: 15px;
+    margin-left: 10px;
+    text-decoration: none;
+    background-color: rgb(206, 206, 206);
+}
